@@ -1,0 +1,41 @@
+{
+    "columns": [
+        {
+            "order": 0,
+            "name": "globalDocumentIdentifier",
+            "displayName": "Global Document Identifier"
+        },
+        {
+            "order": 1,
+            "name": "title",
+            "displayName": "Document Title"
+        },        
+        {
+            "order": 2,
+            "name": "name",
+            "displayName": "Name",
+            "hidden": true
+        },
+        {
+            "order": 3,
+            "name": "documentUsage",
+            "displayName": "Document Usage"
+        },
+        {
+            "order": 4,
+            "name": "floatToLatestVersion",
+            "displayName": "Float to Highest Version"
+        }, 
+        {
+            "order": 5,
+            "name": "latestVersionExists",
+            "displayName": "Latest Version Available",
+            "hidden": true
+        },
+        {
+            "order": 6,
+            "name": "url",
+            "displayName": "Download from Archive"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+=> v1.1.0 :
+    Requires EricssonWebServices2-v1.6.jar (or above) on the 3DSpace server
+        (support for new Ericsson datamodel : range values)
+
+=> v1.1.1 :
+    Requires EricssonWebServices2-v1.7.jar (or above) on the 3DSpace server
+        (adding elec extensions are now integrated in the createEngItems webservice)

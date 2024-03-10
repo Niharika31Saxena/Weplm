@@ -1,0 +1,29 @@
+To build the widget "dist", wich is the one to be distributed to execute the widget :
+    > npm run build
+
+==============================
+Widget URL in DEBUG mode :
+	https://btcc.s3-eu-west-1.amazonaws.com/EPI/electrical-data-widget-debug/index.html
+
+Widget URL (normal) :
+	https://btcc.s3-eu-west-1.amazonaws.com/EPI/electrical-data-widget/index.html
+
+=============================
+To launch the front end for debug :
+
+=> Edit the file ./widget-config.js
+    Modify the cfg.s3.params.Key value to the path in AWS where the debug frontend will be deployed
+
+=> Execute in a terminal :
+    btadmin> npm run startS3
+
+=============================
+Delivery of the front end :
+    Commit to GIT (no need to push)
+
+    > npm version patch
+    OR    
+    > npm version minor
+    OR    
+    > npm version major
+
